@@ -1,17 +1,23 @@
 
-** PREPARE
+## PREPARE
 
+```
 ./scripts/prepare.sh
+```
 
-** DEVELOPMENT
+## DEVELOPMENT
 
 work in ./src
 replace ./resources/app.iconset/icon_512x512@2x.png
 
-** DEBUG RUN
+## DEBUG RUN
 
+```
 ./scripts/run.sh
+```
 
-** BUILD
+## BUILD
 
+```
 ./scripts/build.sh
+```
