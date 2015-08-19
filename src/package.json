@@ -1,5 +1,12 @@
 {
   "name": "MyApp",
   "version": "0.0.1",
-  "main": "main.js"
+  "main": "main.js",
+  "files": [
+    "main.js", 
+    "index.html",
+    "vendor/mithril.min.js",
+    "vendor/pubsub.js",
+    "vendor/velocity.min.js"
+  ]
 }

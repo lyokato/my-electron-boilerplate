@@ -8,10 +8,68 @@
     <script src="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
 
+    <script src="./vendor/mithril.min.js"></script>
+    <script src="./vendor/velocity.min.js"></script>
+    <script src="./vendor/pubsub.js"></script>
+
     <title></title>
+
+    <style>
+      body {
+        background-color: #000;
+      }
+      main {
+        background-color: #eee;
+        background-image: linear-gradient(180deg, rgba(0, 50, 50, 1) 0%, rgba(0, 255, 255, 0.5) 50%, rgba(0, 50, 50, 1));
+        background-position: top left; 
+        background-size: cover; 
+        overflow: hidden;
+      }
+
+      .login-card.mdl-card {
+        margin: 50px auto;
+        width: 512px;
+        border-radius: 5px;
+      }
+      .login-card > .mdl-card__title {
+        color: #ddd;
+        height: 176px;
+      }
+      .login-card > .mdl-card__menu {
+        color: #fff;
+      }
+      .login-card > .mdl-card__actions {
+        color: #fff;
+        background-color: #eee;
+        text-align: right;
+      }
+      .login-card > .mdl-card__actions > button {
+        color: #fff;
+        background-color: #3b5998;
+      }
+    </style>
 
   </head>
   <body>
 
+    <div class="mdl-layout">
+
+      <main class="mdl-layout__content">
+        <div class="mdl-card mdl-shadow--2dp login-card">
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Example</h2>
+          </div>
+          <div class="mdl-card__supporting-text mdl-card--border">
+            このアプリであれとこれが可能です。さあ、始めましょう
+          </div>
+          <div class="mdl-card__actions mdl-card--border">
+            <button type="submit" class="mdl-button mdl-button--raised mdl-button--colored mdl-js-button mdl-js-ripple-effect">START</button>
+          </div>
+        </div>
+      </main>
+
+    <script>
+    
+    </script>
   </body>
 </html>
